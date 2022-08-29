@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd II - Aula 12</title>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form action="" style="display: flex; gap: 10px">
+      <div class="input-container">
+        <label for="name">Nome</label>
+        <input
+          type="text"
+          name="name"
+          id="input-name"
+          placeholder="Digite seu Nome"
+        />
+      </div>
+      <br />
+      <div class="input-container">
+        <label for="lastName">Sobrenome</label>
+        <input
+          type="text"
+          name="lastName"
+          id="input-lastName"
+          placeholder="Digite seu Sobrenome"
+        />
+      </div>
+      <br />
+      <button id="register-btn">Enviar</button>
+    </form>
+    <br />
+    <hr />
+    <div class="trim-method">
+      Método trim()
+      <br />
+      Nome: <span class="firstName"></span>
+      <br />
+      Sobrenome: <span class="lastName"></span>
+    </div>
+    <hr />
+    <div class="uppercase-method">
+      Método toUpperCase()
+      <br />
+      Nome: <span class="firstName"></span>
+      <br />
+      Sobrenome: <span class="lastName"></span>
+    </div>
+    <hr />
+    <div class="lowercase-method">
+      Método toLowerCase()
+      <br />
+      Nome: <span class="firstName"></span>
+      <br />
+      Sobrenome: <span class="lastName"></span>
+    </div>
+    <hr />
+    <div class="replace-method">
+      Método replace()
+      <br />
+      Nome: <span class="firstName"></span>
+      <br />
+      Sobrenome: <span class="lastName"></span>
+    </div>
+    <hr />
+    <div class="concat-method">
+      Método concat()
+      <br />
+      Nome e Sobrenome: <span class="firstLastName"></span>
+    </div>
+    <hr />
+  </body>
+</html>
